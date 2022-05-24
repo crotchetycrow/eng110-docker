@@ -29,4 +29,5 @@
 ```
 
 `docker build -t repo-name/tag-name:v2 .` - builds the image
+
 `docker run -d -p repo-name/tag:v2` - runs the image specified on port 80
