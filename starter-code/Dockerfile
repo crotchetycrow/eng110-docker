@@ -11,13 +11,15 @@ LABEL MAINTAINER=JACK
 
 # Migrate/transfer/cp/move data from localhost to our image/container
 
-WORKDIR /app
+WORKDIR /usr/src/app
 
-COPY ["package.json", "package*.json", "./"]
+COPY app/ /usr/src/app/
 
 # Install NPM
 
-RUN npm install
+RUN npm install -g npm@latest
+
+RUN npm install express
 
 COPY . .
 
