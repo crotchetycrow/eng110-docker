@@ -64,6 +64,7 @@
 ## What is microservice architecture?
 
 - Large application divided into separate parts
+- SRP
 
 ### Benefits?
 

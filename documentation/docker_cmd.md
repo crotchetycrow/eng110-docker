@@ -1,3 +1,5 @@
+### Run Docker Desktop before starting so docker daemon is running
+
 `docker run hello-world` - Runs the image named 'hello-world'
 Looks in local host then looks in registry
 
