@@ -1,5 +1,9 @@
 # Docker
 
+- [Docker setup](https://github.com/crotchetycrow/eng110-docker/blob/master/documentation/docker_setup.md)
+- [Automating Docker](https://github.com/crotchetycrow/eng110-docker/blob/master/documentation/docker_auto.md)
+- [Docker commands](https://github.com/crotchetycrow/eng110-docker/blob/master/documentation/docker_cmd.md)
+
 ## What is Docker?
 
 - Containerisation platform
