@@ -9,6 +9,8 @@ Looks in local host then looks in registry
 
 `docker ps` - show running image, `docker ps -a` for all images
 
+`docker images` - shows all available images
+
 `docker exec -it 'container ID' sh` - enters the shell inside the container
 
 `docker run -d -p 4000:4000 docs/docker.github.io` - dockers documentation
@@ -24,3 +26,5 @@ Looks in local host then looks in registry
 `docker push acc-name/repo-name:tag-name` - Push the image to the repository
 
 `docker login` - Logs into docker from the terminal
+
+`docker logs 'container ID'` - displays the logs for the container
