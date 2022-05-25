@@ -18,6 +18,8 @@ EXPOSE 27017
 
 `docker run -d -p 27017:27017 repo-name/tag:v2` - runs the image specified on port 27017
 
+## Connecting containers together
+
 ### Create a docker-compose yml file
 
 ```
@@ -57,4 +59,5 @@ services:
 ```
 
 `docker-compose up -d` - runs the .yml file in a detached state
+
 `docker-compose down` - shuts down the running containers
