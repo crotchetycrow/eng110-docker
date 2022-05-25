@@ -1,4 +1,4 @@
-# Setting up a node.js app with docker
+# Setting up a node.js app image with docker
 
 `nano Dockerfile` - create a Dockerfile
 

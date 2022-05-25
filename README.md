@@ -3,6 +3,8 @@
 - [Docker setup](https://github.com/crotchetycrow/eng110-docker/blob/master/documentation/docker_setup.md)
 - [Automating Docker](https://github.com/crotchetycrow/eng110-docker/blob/master/documentation/docker_auto.md)
 - [Setting up a node.js app with Docker](https://github.com/crotchetycrow/eng110-docker/blob/master/documentation/docker_node_setup.md)
+- [Setting up mongodb database with Docker](https://github.com/crotchetycrow/eng110-docker/blob/master/documentation/docker_db_setup.md)
+  - [Connecting two containers together](https://github.com/crotchetycrow/eng110-docker/blob/master/documentation/docker_db_setup.md)
 - [Docker commands](https://github.com/crotchetycrow/eng110-docker/blob/master/documentation/docker_cmd.md)
 
 ## What is Docker?
