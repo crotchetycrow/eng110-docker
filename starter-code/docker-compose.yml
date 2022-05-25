@@ -1,5 +1,14 @@
 version: "3"
 services:
+  
+  mongodb:
+    container_name: 4ddc97655d7d
+    image: mongo
+    # restart: always
+    volumes:
+      - ~/mongo:/data/db
+    ports:
+      - "27017:27017"
 
   nodeapp:
     container_name: f10a25865b5f
@@ -8,25 +17,14 @@ services:
       context: .
       dockerfile: Dockerfile
     environment:
-      - DB_HOST=mongodb://db:27017/posts 
+      - DB_HOST=mongodb://mongodb:27017/posts 
     ports:
-      - "3000:3000"
+      - "80:3000"
     links:
       - mongodb
-    depends_on:
-      - mongodb
-  
-  mongodb:
-    container_name: 4ddc97655d7d
-    image: mongo:4.4.6
-    restart: always
-    volumes:
-      - ~/mongo:/data/db
-    ports:
-      - "27017:27017"
 
-    networks:
-      - node-webapp-network
-networks:
-  node-webapp-network:
-    driver: bridge
+#     networks:
+#       - node-webapp-network
+# networks:
+#   node-webapp-network:
+#     driver: bridge
